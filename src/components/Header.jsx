@@ -110,6 +110,15 @@ const Header = () => {
           >
             Hire Me
           </motion.button>
+          {/* Download Resume Button */}
+          <a
+            href="./DushyantSinghRajput_Resume.pdf"
+            download
+            className="ml-4 px-4 py-2 rounded-xl bg-gradient-to-r from-gray-400 to-gray-100 text-violet-700 font-bold hover:from-violet-700 hover:to-purple-700 hover:text-white transition-all duration-500 inline-flex items-center"
+          >
+            <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" /></svg>
+            Resume
+          </a>
         </div>
 
         {/* Mobile Menu Button */}

@@ -17,8 +17,9 @@ const HeroSection = () => {
                     delay: 1.3,
                     duration: 1.5,
                 }}
-                className="text-2xl md:text-4xl lg:text-6xl font-bold z-10 mb-6">
-                Java Full Stack Developer <br />Building Fast <br /> Reliable Results
+                className="text-3xl md:text-4xl lg:text-7xl font-bold z-10 mb-6">
+                Java Full Stack Developer 
+                <br /> <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold z-10 mb-2">Building Fast <br /> Reliable Results</h3>
             </motion.h1>
 
             <motion.p 
