@@ -26,11 +26,11 @@ jobs:
 
       - name: Configure Git with user info
         run: |
-          git config --global user.name 'Dushyant Singh Rajput'
-          git config --global user.email 'dushyantsinghrajput0211@gmail.com'
+          git config --global user.name 'DushyantSingh-Rajput0211'
+          git config --global user.email 'dushysingh@gmail.com'
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_PAT }}
           publish_dir: ./dist
