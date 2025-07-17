@@ -34,7 +34,11 @@
     </script>
   </head>
   <body>
-    <div id="root"></div>
-    <!-- <script type="module" src="/src/main.jsx"></script> -->
+    <div id="root"></div>rm -rf dist node_modules
+npm install
+npm run build
+git add .
+git commit -m "fix: remove manual script tag from index.html"
+git push origin main
   </body>
 </html>
