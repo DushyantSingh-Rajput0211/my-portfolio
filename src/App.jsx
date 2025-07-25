@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import CustomCursor from "./components/CustomCursor";
+import Journey from "./components/Journey";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -144,6 +145,9 @@ export default function App() {
           </div>
         </div>
       </section>
+
+      <Journey />
+
       <section id="skills" className="min-h-[60vh] flex flex-col items-center justify-center bg-[#18192A] text-white px-4 py-16">
         <h2 className="text-4xl font-bold mb-2 text-center">
           Skills & <span className="text-violet-400">Expertise</span>
