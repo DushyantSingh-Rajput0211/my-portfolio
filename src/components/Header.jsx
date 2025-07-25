@@ -1,6 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { FiGithub, FiTwitter, FiLinkedin, FiMenu, FiX } from "react-icons/fi";
-import resumePDF from '../assets/DushyantSinghRajput_Resume_2025.pdf';
 import { useState } from "react";
 
 const Header = () => {
@@ -113,7 +112,7 @@ const Header = () => {
           </motion.button>
           {/* Download Resume Button */}
           <a
-            href={resumePDF}
+            href={`${import.meta.env.BASE_URL}assets/DushyantSinghRajput_Resume_2025.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             download
