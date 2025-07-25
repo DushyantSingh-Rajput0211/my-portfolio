@@ -112,7 +112,7 @@ const Header = () => {
           </motion.button>
           {/* Download Resume Button */}
           <a
-            href="/my-portfolio/DushyantSinghRajput_Resume_2025.pdf"
+            href={`${import.meta.env.BASE_URL}assets/DushyantSinghRajput_Resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             download
